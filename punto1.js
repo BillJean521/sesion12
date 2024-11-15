@@ -8,4 +8,5 @@ for(i=0;i<numeros.length();i++){
 }
 
 promedio=suma/numeros.length();
-document.getElementById("resultado").value = suma;
+document.getElementById("resultado").innerHTML = suma;
+document.getElementById("promedio").innerText = promedio;
