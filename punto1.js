@@ -3,10 +3,10 @@ let suma=0;
 let promedio=0;
 let i=0;
 
-for(i=0;i<numeros.length();i++){
+for(i=0;i<numeros.length;i++){
     suma += numeros[i];
 }
 
-promedio=suma/numeros.length();
-document.getElementById("resultado").innerHTML = suma;
-document.getElementById("promedio").innerText = promedio;
+promedio=suma/numeros.length;
+document.getElementById("resultado").value = suma;
+document.getElementById("promedio").value = promedio;
