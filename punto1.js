@@ -3,7 +3,7 @@ let suma=0;
 let promedio=0;
 let i=0;
 
-for(i=0;i<numeros.length;i++){
+for(let i=0;i<numeros.length;i++){
     suma += numeros[i];
 }
 
