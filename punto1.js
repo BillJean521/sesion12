@@ -1,3 +1,7 @@
+/*Parte 1: Bucle `for`
+- Escribe un código que recorra un arreglo de números y calcule la suma total.
+- Pregunta: ¿Cómo se modifica el código para calcular el promedio de los números?
+*/
 let numeros=[5,6,3,1]; //Crear arreglos
 let suma=0;
 let promedio=0;
